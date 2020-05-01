@@ -31,6 +31,15 @@
         </header>
     </div>
 
+    <!-- SIDE NAV -->
+    <nav>
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+          {{ item.name }}
+        </a>
+      {% endfor %}
+    </nav>
+
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
