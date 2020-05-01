@@ -32,18 +32,17 @@
         </header>
     </div>
 
-    <!-- SIDE NAV -->
-    <nav>
-      {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-          {{ item.name }}
-        </a>
-      {% endfor %}
-    </nav>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <nav>
+          {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+              {{ item.name }}
+            </a>
+          {% endfor %}
+        </nav>
         {{ content }}
       </section>
     </div>
@@ -51,9 +50,8 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="dhruvasambrani.github.io">Dhruva Sambrani</a></p>
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} content authoured by Kartikey Awasthi</p>        
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
