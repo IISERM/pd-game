@@ -1,1 +1,1 @@
-# prisoners-dilemma
+# Prisoners Dilemma
