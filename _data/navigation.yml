@@ -1,0 +1,14 @@
+- name: 1. Home
+  link: /
+- name: 2. Introduction to Prisoner’s Dilemma
+  link: /intropd
+- name: 3. Strategies
+  link: /strategies
+- name: 4. Devising Strategies
+  link: /devise
+- name: 5. How does the Game run
+  link: /gamerun
+- name: 6. Example of a Strategy
+  link: /example
+- name: 7. FAQ
+  link: /faq

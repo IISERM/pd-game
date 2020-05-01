@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/master.css">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <div class="sidebar">
+            {% for item in site.data.navigation %}
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+                  {{ item.name }}
+                </a>
+            {% endfor %}
+        </div>
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </body>
+</html>
