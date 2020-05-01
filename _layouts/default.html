@@ -35,13 +35,13 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <nav>
+      <div class="sidebar">
         {% for item in site.data.navigation %}
           <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
             {{ item.name }}
           </a>
         {% endfor %}
-      </nav>
+      </div>
       <section id="main_content" class="inner">
         {{ content }}
       </section>
