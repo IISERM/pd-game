@@ -7,7 +7,7 @@ To play this game, we will be using an open-source, pedagogical software called 
 Oyun allows strategy input in an FSA format written as a.txt file.
 
 <figure>
-  <img src="/res/oyun.png" alt="oyun.png"/>
+  <img src="/pd-game/res/oyun.png" alt="oyun.png"/>
   <figcaption>Figure 2: Logo of OYUN- A PD game simulator</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Here is an example of an FSA showing the TIT FOR TAT strategy - a strategy that 
 Keep these rules in mind while designing the automaton for your strategy-
 
 <figure>
-  <img src="/res/fsa.png" alt="fsa.png"/>
+  <img src="/pd-game/res/fsa.png" alt="fsa.png"/>
   <figcaption>Figure 3: An FSA diagram depicting the TIT FOR TAT strategy</figcaption>
 </figure>
 

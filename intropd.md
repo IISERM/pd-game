@@ -13,7 +13,7 @@ Prisoner’s dilemma (here on abbreviated as P.D) is an extensively studied game
 Given below is the payoff matrix of PD graphically -
 
 <figure>
-  <img src="/res/fig1.png" alt="Payoff matrix.png"/>
+  <img src="/pd-game/res/fig1.png" alt="Payoff matrix.png"/>
   <figcaption>Figure 1: Payoff matrix of Prisoner’s Dilemma Game</figcaption>
 </figure>
 

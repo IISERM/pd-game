@@ -2,7 +2,7 @@
     title: Strategies
 ---
 
-<img src="/res/strategy.png" alt-text="strategy.png" style="float: right;">
+<img src="/pd-game/res/strategy.png" alt-text="strategy.png" style="float: right;">
 
 A ‘move’ refers to the choice made in a round of the PD game. Ours is an Iterated PD game wherein we have multiple rounds of the game - meaning the players get to move more than once. The points per round are summed for the final result.
 

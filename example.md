@@ -23,7 +23,7 @@ D,10,11
 This code corresponds to the PARASITE strategy whose FSA diagram is given below-
 
 <figure>
-  <img src="/res/cpfsa.png" alt="cpfsa.png"/>
+  <img src="/pd-game/res/cpfsa.png" alt="cpfsa.png"/>
   <figcaption>Figure 5: FSA Diagram for the PARASITE strategy</figcaption>
 </figure>
 
