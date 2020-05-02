@@ -1,14 +1,16 @@
-- name: 1. Home
+- name: 0. Home
   link: /pd-game
-- name: 2. Introduction to Prisoner’s Dilemma
+- name: 1. Introduction to Prisoner’s Dilemma
   link: /pd-game/intropd
-- name: 3. Strategies
+- name: 2. Strategies
   link: /pd-game/strategies
-- name: 4. Devising Strategies
+- name: 3. Devising Strategies
   link: /pd-game/devise
-- name: 5. How does the Game run
+- name: 4. How does the Game run
   link: /pd-game/gamerun
-- name: 6. Example of a Strategy
+- name: 5. Example of a Strategy
   link: /pd-game/example
-- name: 7. FAQ
+- name: 6. Download Guidebook
+  link: /pd-game/pd_game_guide.pdf
+- name: 7. Download FAQ
   link: /pd-game/FAQ.pdf

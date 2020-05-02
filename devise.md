@@ -57,8 +57,10 @@ Coding out your FSA is a piece of cake for Oyun once you’ve chalked out its de
   As an example-
   ```
   IISER Mohali
-  TIT FOR TAT 2
-  C,0,1 D,0,1
+  TIT FOR TAT
+  2
+  C,0,1
+  D,0,1
   ```
 
 3. Check the above example with the FSA diagram given above to get a feel. Your le must have only the aforementioned text and nothing else. Remember, each state MUST be associated with a number and a move to play, i.e. either C or D.
