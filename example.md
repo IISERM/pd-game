@@ -1,5 +1,5 @@
 ---
-    title: Example
+    title: An Example of a Strategy
 ---
 
 Given below is the PARASITE strategy
