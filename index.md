@@ -1,4 +1,4 @@
-##Welcome to The Prisoners Dilemma Game - The IISER Mohali version.
+## Welcome to The Prisoners Dilemma Game - The IISER Mohali version.
 
 Brainchild of Kartikey Awasthi(MS18204) who seems to have made it his life goal to spread the gospel of Evolutionary Game Theory, this game is a  tournament to find the best strategy that you guys can come up with. But since Biology is so _eh_, we're just going to be doing normal Game Theory.
 
